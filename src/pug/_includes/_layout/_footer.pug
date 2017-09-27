@@ -1,0 +1,36 @@
+footer.footer
+    .container.clearfix
+        .footer__nav-block.fl-l
+            h2.f-t Интернет магазин
+            ul
+                each val in ['Акции','Каталог товаров','Доставка и оплата','Гарантия и возврат','Консультация/выезд','Сотрудничество','Статьи','О компании']
+                    li 
+                        a(href="#")= val
+        .footer__nav-soc.fl-l
+            p
+                | Мы в социальных сетях:
+            ul
+                li 
+                    a(href="").vk  vk
+                li
+                    a(href="").fb fb
+                li
+                    a(href="").inst inst
+        .footer__contacts-block.fl-r
+            h2  
+                | Контактная информация:
+            p 
+                |г. Екатеринбург, <br>
+                |ул. Восстания 32А, офис 19 <br>
+                |(343) 378-24-16, 213-52-74, <br>
+                |teplopol66@yandex.ru
+            .online-help
+                p
+                    | Напишите нам, мы онлайн! 
+                span
+                    | ··· Chatra
+.rights
+    .container
+        p 
+            span © 
+            | ООО "Теплые полы" 2005-2017

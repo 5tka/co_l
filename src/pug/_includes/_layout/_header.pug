@@ -1,0 +1,19 @@
+header.header
+    .top__header-line
+        .container.clearfix
+            .logo.fl-l
+                a(href="#")
+                    img(src="img/logo.svg", alt="")
+            .basket-info.fl-r
+                a(href="#").basket-a
+                    | Корзина
+                a(href="tel:+83433195274").tel-a
+                    | 8 343 319 52 74
+                a(href="#").call-btn
+                    | Заказать звонок
+    .container
+        .header__nav-line
+            ul.nav-mnu
+                each item in ['Интернет магазин','Доставка','Заказать замеры','Сотрудничество','Статьи','О компании','Контакты']
+                    li
+                        a(href="#")= item

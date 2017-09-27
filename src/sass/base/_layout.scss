@@ -1,0 +1,21 @@
+@mixin container($maxwidth, $padding: 15) {
+    max-width: $maxwidth + px;
+    min-width: 320px ;
+    margin: 0 auto;
+    padding:  {
+        right: $padding + px;
+        left: $padding + px;
+    }
+}
+.container{
+    @include container(1810);
+}
+.fl-l {
+    float: left;
+}
+.fl-r {
+    float: right;
+}
+.clearfix{
+    @include clearfix;
+}
